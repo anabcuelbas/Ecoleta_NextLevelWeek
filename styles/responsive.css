@@ -1,6 +1,7 @@
-@media (max-width: 480px) and (max-height: 700px) {
+@media (max-width: 563px) and (max-height: 700px) {
     #page-home header {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -28,7 +29,7 @@
         }
     }
 
-    @media (min-width: 471px) {
+    @media (min-width: 563px) {
         #page-home header a {
             position: absolute;
             bottom: 10px;
