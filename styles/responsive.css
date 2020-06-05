@@ -10,6 +10,16 @@
     }
 }
 
+@media (max-width: 800px) {
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 200px;
+    }
+}
+
 @media (max-width: 960px) {
     #page-home {
         background-position-x: 80vw;
