@@ -147,7 +147,7 @@ form button:hover {
     color: var(--title-color);
 }
 
-.items-grid li.selected {
+.items-grid li.selected { /* não pode ter espaço entre li e o . porque muda o significado */
     background: #e1faec;
     border: 2px solid #34cb79;
 }
